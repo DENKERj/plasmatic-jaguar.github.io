@@ -1,0 +1,4 @@
+Sitemap: https://www.bearfootgames.com/sitemap.xml
+
+User-agent: *
+Disallow:
