@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'MyCustomFont', sans-serif;
+    font-family: 'WebsiteFont', sans-serif;
     background-color: #D1F5FF;
     color: #244f26;
     line-height: 1.6;
@@ -27,6 +27,16 @@ body {
     transform: translate(-50%, -50%);
     z-index: 9999; /* Ensure the bubble stays on top */
 }
+
+/* @font-face rule to load custom .ttf font */
+@font-face {
+    font-family: 'WebsiteFont'; /* Custom name for the font */
+    src: url('./Website.ttf') format('truetype'); /* Path to the .ttf file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 /* Keyframe Animations */
 @keyframes fadeIn {
@@ -52,6 +62,7 @@ body {
 
 /* Section Styling */
 section {
+    font-family: 'WebsiteFont', sans-serif;
     background: linear-gradient(135deg, #256D1B, #424342); /* Gradient background */
     color: #EEF8FF;
     padding: 4rem 2rem;
@@ -207,7 +218,7 @@ main {
 h1, h2, h3 {
     color: #34f6f2;
     margin-bottom: 1rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'WebsiteFont', sans-serif;
 }
 
 h1 {
