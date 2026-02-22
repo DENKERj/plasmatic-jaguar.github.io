@@ -3,45 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Indie Video Games by Argenti Ignis | Bear Foot Studio Indie Game Studio</title>
-  <meta name="description" content="Discover the unique portfolio of indie video games developed by Argenti Ignis. Experience stunning pixel art masterpieces and immersive 3D landscapes while connecting with our vibrant gaming community. Join us and explore exclusive content today!">
+  <title>Plasmatic Jaguar Indie Game Studio</title>
+  <meta name="description" content="Discover the unique portfolio of indie video games. Focused on unique narrative masterpieces and immersive 3D experiences!">
   <link rel="icon" href="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=16,h=16,fit=crop,f=png/YbNneLz8vPSMpZgW/shamanbear2-Yg2O5lPyPbSaoG73.png">
-  <link rel="stylesheet" href="styles.css"> <!-- External styles can be added here -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="https://www.bearfootgames.com">Home</a></li>
-        <li><a href="https://bearfootstudio.itch.io/echoesfromtheironcage">Echoes From the Iron Cage</a></li>
-        <li><a href="https://bearfootstudio.itch.io/hayleys-world">Hayley's World</a></li>
-        <li><a href="https://store.steampowered.com/curator/45634084/">Steam</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section>
-      <h1>Welcome to Bear Foot Studio</h1>
-      <p>Explore the unique portfolio of indie video games developed by Argenti Ignis. From pixel art to immersive 3D landscapes, discover exclusive content and join our community today!</p>
-    </section>
+    <div id="bubble"></div>
+    <header>
+        <nav class="navbar">
+            <!-- Button to toggle menu on small screens -->
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            
+            <ul class="menu">
+                <li><a href="https://plasmatic-jaguar.com">Home</a></li>
+                <li><a href="https://store.steampowered.com/curator/45634084/">Steam</a></li>
+                <li><a href="https://plasmatic-jaguar.itch.io/">Itch</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section>
-      <h2>Featured Games</h2>
-      <div class="game">
-        <h3><a href="https://bearfootstudio.itch.io/echoesfromtheironcage">Echoes From the Iron Cage</a></h3>
-        <p>A thrilling game about a printer turning against humanity as technology rises.</p>
-      </div>
-      <div class="game">
-        <h3><a href="https://bearfootstudio.itch.io/hayleys-world">Hayley's World</a></h3>
-        <p>Embark on a journey with a raccoon on rollerskates to save her friends from evil forces.</p>
-      </div>
-    </section>
-  </main>
+   <main>
+<section>
+    <h1>Plasmatic Jaguar</h1>
+    <p>Discover the rich uniqueness of Plasmatic Jaguar video games. <br>Drink it in and rejoice amidst colors and shapes. <br>Focused on unique narrative masterpieces and immersive 3D experiences.</p>
+</section>
 
-  <footer>
-    <p>&copy; 2026 Bear Foot Studio</p>
-    <p><a href="https://www.bearfootgames.com">Visit our website</a></p>
-  </footer>
+<section>
+  <h2>Featured Games</h2>
+  
+  <div class="game">
+    <a href="https://store.steampowered.com/app/2178350/Unhinged/" class="game-link">
+      <img src="./photos/unhinged.jpg" alt="Unhinged Game Image" class="game-image">
+      <h3>Unhinged</h3>
+      <p>Story of someone finding justice after having laundry thrown on the ground.</p>
+    </a>
+  </div>
+
+  <!-- Repeat for other games -->
+
+    <div class="game">
+	<a href="https://plasmatic-jaguar.itch.io/hayleys-world" class="game-link">
+      <img src="./photos/hayleysWorld.png" alt="Hayley's World" class="game-image">
+      <h3>Hayley's World</h3>
+      <p>Embark on a journey with a raccoon on rollerskates to save her friends from evil forces.</p>
+    </a>
+	</div>
+    
+    <div class="game">
+	<a href="https://store.steampowered.com/app/1837840/CatMxn_Chapter_1/"class="game-link">
+      <img src="photos/catmxn.png" alt="CatMxn" class="game-link">
+      <h3>CatMxn</a></h3>
+      <p>There is a network of cat killers, and you have been chosen by the feline gods to save cats everywhere.</p>
+	</a>
+    </div>
+
+    <div class="game">
+	<a href="https://store.steampowered.com/app/3537460/Goose/" class="game-link">
+      <img src="photos/Goose.jpg" alt="Goose" class="game-image">
+      <h3>Goose</h3>
+      <p>This is a game where you go around goosin' people.</p>
+    </a>
+</div>
+
+  </section>
+</main>
+
+    <footer>
+      <p>&copy; 2026 Plasmatic Jaguar</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
